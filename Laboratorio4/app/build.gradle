@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.dependencia'
+    namespace 'com.example.laboratorio4'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.dependencia"
+        applicationId "com.example.laboratorio4"
         minSdk 24
         targetSdk 33
         versionCode 1

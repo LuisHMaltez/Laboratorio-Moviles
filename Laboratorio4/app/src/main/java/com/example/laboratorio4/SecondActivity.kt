@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import com.example.dependencia.R
 
 
 private val keyName = "NAME"
@@ -35,7 +34,7 @@ class SecondActivity : AppCompatActivity() {
             val shareIntent = Intent(Intent.ACTION_SEND)
 
             shareIntent.type = "text/plain"
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "Name: $name\nEmail: $mail\nCellphone: $number")
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "Name: $name\nEmail: $mail\nNumber: $number")
 
             startActivity(Intent.createChooser(shareIntent, "Share to:"))
         }

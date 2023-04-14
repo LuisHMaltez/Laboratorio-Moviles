@@ -4,8 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.example.dependencia.R
 import com.google.android.material.textfield.TextInputEditText
+
 
 private lateinit var nameinput: TextInputEditText
 private lateinit var mailinput: TextInputEditText

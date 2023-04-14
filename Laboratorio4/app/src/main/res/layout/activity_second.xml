@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
 
     <TextView
         android:id="@+id/confirm_text"
@@ -25,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/medium_gap"
         android:fontFamily="monospace"
+        android:textColor="@color/black"
         android:text="@string/show_name_text"
         app:layout_constraintBottom_toTopOf="@+id/mail_confirm_text"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,6 +38,7 @@
         android:layout_height="wrap_content"
         android:text="@string/show_mail_text"
         android:fontFamily="monospace"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/number_confirm_text"
         app:layout_constraintStart_toStartOf="@+id/name_confirm_text"
         app:layout_constraintTop_toBottomOf="@+id/name_confirm_text" />
@@ -45,6 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
+        android:textColor="@color/black"
         android:text="@string/show_number_text"
         app:layout_constraintBottom_toTopOf="@+id/share_btn"
         app:layout_constraintStart_toStartOf="@+id/mail_confirm_text"
@@ -69,6 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/small_gap"
         android:text=""
+        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/name_confirm_text"
         app:layout_constraintTop_toTopOf="@+id/name_confirm_text" />
 
@@ -78,6 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/small_gap"
         android:text=""
+        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/mail_confirm_text"
         app:layout_constraintTop_toTopOf="@+id/mail_confirm_text" />
 
@@ -87,6 +93,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/small_gap"
         android:text=""
+        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/number_confirm_text"
         app:layout_constraintTop_toTopOf="@+id/number_confirm_text" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
