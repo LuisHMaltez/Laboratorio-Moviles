@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Laboratorio 4</string>
+    <string name="header_text">Rellena la siguiente \ninformación</string>
+    <string name="name_hint">Nombre</string>
+    <string name="mail_hint">Correo electrónico</string>
+    <string name="number_hint">Número de telefono</string>
+    <string name="save_bnt_text">Guardar</string>
+    <string name="info_confirm_text">Confirma tu informacion</string>
+    <string name="show_name_text">Nombre:</string>
+    <string name="show_mail_text">Correo electronico:</string>
+    <string name="show_number_text">Numero de teléfono:</string>
+    <string name="share_btn_text">Compartir</string>
+    <string name="share_data">Mi informacion es: %1$s ,  %2|$s ,  %3$s</string>
+</resources>
