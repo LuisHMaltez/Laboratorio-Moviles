@@ -6,7 +6,7 @@
     app:startDestination="@id/bilboard_Fragment">
     <fragment
         android:id="@+id/bilboard_Fragment"
-        android:name="com.example.laboratorio5.Billboard_Fragment"
+        android:name="com.example.laboratorio5.ui.movie.Billboard_Fragment"
         android:label="fragment_bilboard"
         tools:layout="@layout/fragment_billboard" >
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/description_Fragment"
-        android:name="com.example.laboratorio5.Description_Fragment"
+        android:name="com.example.laboratorio5.ui.movie.Description_Fragment"
         android:label="fragment_description"
         tools:layout="@layout/fragment_description" >
         <action
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/newMovie_Fragment"
-        android:name="com.example.laboratorio5.NewMovie_Fragment"
+        android:name="com.example.laboratorio5.ui.movie.NewMovie_Fragment"
         android:label="fragment_new_movie"
         tools:layout="@layout/fragment_new_movie" >
         <action
