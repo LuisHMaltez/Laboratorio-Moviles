@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Parcial_Deportes</string>
-    <string name="deportes_text_view">Deportes</string>
+    <string name="app_name">Sports Rules</string>
+    <string name="Sports_text_view">Sports</string>
 </resources>
