@@ -55,6 +55,7 @@ class SportViewModel(private val repository: SportRepository): ViewModel(){
             }
         }
 
+        //Makes creation status
         const val SPORT_CREATED = "Sport created"
         const val WRONG_INFORMATION = "Wrong information"
         const val INACTIVE = ""
