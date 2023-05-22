@@ -16,7 +16,7 @@ class SportAdapter: RecyclerView.Adapter<SportViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SportViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        val view = inflater.inflate(R.layout.itemSport, parent, false)
+        val view = inflater.inflate(R.layout.item_sport, parent, false)
         return SportViewHolder(view)
     }
 

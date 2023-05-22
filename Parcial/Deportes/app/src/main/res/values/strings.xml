@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Sports Rules</string>
     <string name="Sports_text_view">Sports</string>
+    <string name="soccer_Text">Soccer</string>
 </resources>

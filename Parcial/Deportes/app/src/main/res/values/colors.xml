@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    //CardView color
+    <color name="card_View_Color">#173E9D</color>
+    //Background color
+    <color name="backgroundLayout">#D84900</color>
 </resources>
