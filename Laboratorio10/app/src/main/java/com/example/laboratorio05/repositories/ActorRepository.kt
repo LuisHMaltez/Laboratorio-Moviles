@@ -11,5 +11,5 @@ class ActorRepository(private val actorDao: ActorDao) {
     suspend fun getAllActors() = actorDao.getAllActors()
 
     //complete addMovies method
-    suspend fun addMovies(actor: ActorModel) = actorDao.insertActor(actor)
+    suspend fun addActors(actor: ActorModel) = actorDao.insertActor(actor)
 }

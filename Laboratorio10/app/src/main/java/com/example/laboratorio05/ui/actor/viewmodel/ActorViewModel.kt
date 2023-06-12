@@ -20,7 +20,7 @@ class ActorViewModel(private val repository: ActorRepository) : ViewModel() {
 
     private fun addActor(actor: ActorModel){
         viewModelScope.launch {
-            repository.addMovies(actor)
+            repository.addActors(actor)
         }
     }
 
